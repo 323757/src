@@ -9,3 +9,4 @@
 8.目录扫描：主要依靠字典（可以适当整合一些师傅们发出来的路径字典到，例如我的话，是增加了springboot未授权的一些路径、swagger的路径以及一些例如vmvare-vcenter的漏洞路径。）
 9.JS信息收集：一个站点扫描了目录、尝试登录失败并且没有自己注册功能的情况下，我们还可以从JS文件入手，获取一些URL，也许某个URL便能够未授权访问获取敏感信息呢。工具：https://github.com/Threezh1/JSFinder（有点老不知道可以用吗？）还有js文件
 10.web端没有思路的时候，可以结合小程序、APP来进行渗透。
+工具：灯塔（灯塔打包环境下载123网盘不限速下载：https://www.123pan.com/s/qqJfTd-mhrh.html，提取码:dtos）
