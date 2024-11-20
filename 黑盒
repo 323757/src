@@ -1,0 +1,5 @@
+1.万能密码：登录时输入的数据会带入数据库查询进行比对，当用户名与用户的密码对的上的话，返回true，那就允许我们登录（bp字典爆破）
+    （1）账号已知密码未知：select * from user where username='user' or 1=1--+' and password='pass'（select * from user where username='user'#######）
+    （2）账号未知密码已知：
+  参考：https://blog.csdn.net/ityard/article/details/122007606
+2.token绕过：https://blog.csdn.net/weixin_42380348/article/details/105510251  （每次请求数据包token都会刷新一次）   
