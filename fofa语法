@@ -1,2 +1,3 @@
 参考:https://blog.csdn.net/        qq_35709559/article/details/     128529099
 FOFA原理:通过搜索引擎的方式，按照关键词对互联网资产进行分类和筛选，帮助用户快速定位目标资产并进行风险评估。
+1.domain和host区别，domain会查子域名资产，host只指定域名单一
