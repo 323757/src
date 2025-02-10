@@ -26,3 +26,34 @@
 3.vim
 4.termux 
 5.markdown：https://markdown.com.cn/basic-syntax/
+
+渗透
+1.目录枚举：有时我们会发现隐藏的功能或页面/目录暴露了敏感数据，这些数据可以用来访问Web应用程序，甚至可以在Web服务器上执行远程代码。
+2.公开利用：Nmap扫描中确定的端口上运行的服务1.查看是否有任何应用程序/服务具有任何公共漏洞。可以在Web应用程序和其他在开放端口（如SSH或ftp）上运行的应用程序中找到公共漏洞。
+                                         2.谷歌的应用程序名称与exploit
+                                         3.工具是searchsploit
+                                         4.我们还可以利用在线漏洞利用数据库来搜索漏洞，如Exploit DB，Rapid7 DB或Vulnerability Lab。Web应用程序简介模块讨论了Web应用程序的公共漏洞。
+3.msf：1.search exploit xx命令搜索我们的目标应用程序
+       2.USE来使用它
+       3.要查看可用于配置的选项，我们可以使用show options命令
+       4.set命令设置它们
+       5.运行脚本之前，我们可以运行一个检查，以确保服务器是脆弱的
+       6.并非Metasploit Framework中的每个漏洞都支持check功能。最后，我们可以使用run或exploit命令来运行漏洞利用
+4.利用一种攻击进入系统后拿shell：1.Reverse Shell反弹shell 2.Bind Shell 3.Web Shell
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
