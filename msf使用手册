@@ -1,0 +1,6 @@
+       1.search exploit xx命令搜索我们的目标应用程序
+       2.USE来使用它
+       3.要查看可用于配置的选项，我们可以使用show options命令
+       4.set命令设置它们
+       5.运行脚本之前，我们可以运行一个检查，以确保服务器是脆弱的
+       6.并非Metasploit Framework中的每个漏洞都支持check功能。最后，我们可以使用run或exploit命令来运行漏洞利用
